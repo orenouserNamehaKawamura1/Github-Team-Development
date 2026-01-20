@@ -15,7 +15,31 @@
       href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=M+PLUS+Rounded+1c&family=Moirai+One&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Zen+Old+Mincho&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/common.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div>
+        <h1>Spring Music Festival 2026</h1>
+        <p>5月2、3日 グリーンパーク野外ステージ</p>
+        <div class="hamburger" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <nav id="menu">
+        <div class="close-button" onclick="closeMenu()">✕</div>
+        <a href="./html/artists/index.html">出演者一覧</a>
+        <a href="./html/timetable.html">タイムテーブル</a>
+        <a href="./html/guide.html">会場案内</a>
+        <a href="./html/ticket.html">チケット情報</a>
+        <a href="./html/goods.html">グッズ紹介</a>
+        <a href="./html/guide.html">来場者ガイド</a>
+        <a href="./html/faq.html">FAQ</a>
+      </nav>
+    </header>
+    <script src="./js/header.js"></script>
+  </body>
 </html>
