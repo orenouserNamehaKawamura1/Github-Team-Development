@@ -1,0 +1,13 @@
+/* 共通のcssを定義 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kosugi Maru", sans-serif;
+}
+
+/* 英語のテキストがある場合はこのクラスをHTMLに追加する */
+.english {
+  font-family: "Kosugi Maru", sans-serif;
+}
