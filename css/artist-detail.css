@@ -1,0 +1,38 @@
+@charset "uft-8";
+
+@media screen and (max-width: 375px) {
+    .contents{
+        color: #3D5E75;
+        margin:0 24px
+    }
+
+    .artist-name{
+        font-weight: 400;
+        font-size: 15pt;
+        margin: 8px 0;
+    }
+
+    .artist-img{
+        width: 100%;
+    }
+
+    .genre-and-icon{
+        display: flex;
+        align-items: center;
+    }
+
+    .artist-genre{
+        font-size: 8pt;
+        margin-right: auto;
+    }
+
+    .icons{
+        display: flex;
+        align-items: center;
+        width: 20%;
+    }
+
+    .artist-sns-icon{
+        
+    }
+}
