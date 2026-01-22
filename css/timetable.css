@@ -3,16 +3,19 @@
 @media (max-width: 375px) {
     .tabs{
         justify-content: center;
+        margin: 16px;
     }
 
     .tab-buttons {
         display: flex;
+        width: 100%;
         gap: 0px;
         justify-content: center;
     }
 
     .tab-btn {
-        padding: 8px 54px;
+        padding: 8px 0;
+        width: 50%;
         margin: 0;
         margin-top: 16px;
         border: none;
@@ -28,17 +31,18 @@
 
     .tab-content {
         display: none;
-        margin-top: 16px;
         justify-content: center;
     }
 
     .tab-content.active {
         display: block;
+        color: #3D5E75;
     }
 
     .table-header{
         background-color: #dbcfc4;
-        color: #3D5E75;
+        padding: 8px 0;
+        font-weight: 400;
     }
 
     .tab-content table tbody tr th{
@@ -49,9 +53,15 @@
 
     .tab-content table tbody tr td p{
         font-size: 8pt;
+        text-align: center;
     }
 
     .artist-img{
-        width: 100%;
+        width: 125px;
+        height: 70px;
+    }
+
+    .colunm-header p{
+        font-weight: 400;
     }
 }
