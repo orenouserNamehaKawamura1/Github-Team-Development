@@ -57,8 +57,9 @@
     }
 
     .artist-img{
-        width: 125px;
-        height: 70px;
+        aspect-ratio: 125/70;
+        object-fit: cover;
+        width: 100%;
     }
 
     .colunm-header p{
