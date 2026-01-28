@@ -4,11 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <title>FAQ</title>
-    <link rel="stylesheet" href="../css/faq.css">
     <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/faq.css">
 </head>
 
 <body>
+        <header>
+      <div>
+        <h1>Spring Music Festival 2026</h1>
+        <p>5月2、3日 グリーンパーク野外ステージ</p>
+        <div class="hamburger" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <nav id="menu">
+        <div class="close-button" onclick="closeMenu()">✕</div>
+        <a href="./html/artists/index.html">出演者一覧</a>
+        <a href="./html/timetable.html">タイムテーブル</a>
+        <a href="./html/guide.html">会場案内</a>
+        <a href="./html/ticket.html">チケット情報</a>
+        <a href="./html/goods.html">グッズ紹介</a>
+        <a href="./html/guide.html">来場者ガイド</a>
+        <a href="./html/faq.html">FAQ</a>
+      </nav>
+    </header>
+
 
     <div class="faq">
         <h1>FAQ</h1>
@@ -140,11 +162,76 @@
                 </div>
             </div>
         </section>
+            </div>
 
-        <footer class="copyright">
-            Copyright © 2026 morijyobi All Rights Reserved.
-        </footer>
-    </div>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <h2 class="english">Spring Music Festival 2026</h2>
+          <p>5月2、3日 グリーンパーク野外ステージ</p>
+        </div>
+
+        <div class="footer-links">
+          <div class="col">
+            <a href="./html/artists/index.html">出演者一覧</a>
+            <div>
+              <a href="./html/timetable.html">タイムテーブル</a>
+              <div>
+                <a href="./html/timetable.html">5月2日</a>
+                <a href="./html/timetable.html">5月3日</a>
+              </div>
+            </div>
+            <div>
+              <a href="./html/guide.html">会場案内</a>
+              <div>
+                <a href="./html/guide.html">会場名・住所</a>
+                <a href="./html/guide.html">アクセス方法</a>
+              </div>
+            </div>
+            <div>
+              <a href="./html/ticket.html">チケット案内</a>
+              <div>
+                <a href="#">種別と料金</a>
+                <a href="#">購入方法</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <a>グッズ紹介</a>
+            <div>
+              <a href="">各種グッズ</a>
+              <a href="">当日販売の案内</a>
+            </div>
+            <a href="">来場者ガイド</a>
+            <div>
+              <a href="">持ち物リスト</a>
+              <a href="">禁止事項</a>
+              <a href="">その他の注意事項</a>
+              <a href="">雨天時の対応</a>
+              <a href="">会場での過ごし方</a>
+            </div>
+          </div>
+
+          <div class="col">
+            <a>よくある質問</a>
+            <div>
+              <a href="">チケットについて</a>
+              <a href="">入場・会場について</a>
+              <a href="">飲食について</a>
+              <a href="">その他</a>
+            </div>
+            <a href="">お問い合わせ</a>
+            <a href="">プライバシーポリシー</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2026 morijyobi All Rights Reserved.
+      </div>
+    </footer>
+
 
     <script src="../js/faq.js"></script>
     <script src="../js/header.js"></script>
