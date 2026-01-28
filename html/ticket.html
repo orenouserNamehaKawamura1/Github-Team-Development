@@ -2,9 +2,19 @@
 <html lang="ja">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/common.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=M+PLUS+Rounded+1c&family=Moirai+One&family=Noto+Sans+JP:wght@100..900&family=Potta+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Zen+Old+Mincho&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=M+PLUS+Rounded+1c&family=Moirai+One&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Zen+Old+Mincho&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../css/common.css"/>
     <link rel="stylesheet" href="../css/ticket.css">
     <title>チケット情報</title>
 
@@ -37,38 +47,55 @@
     <div class="main-body">
         <div class="body-top">
             <p>チケット情報</p>
-            <p class="sab-p">→入場券</p>
         </div>
         <div class="body-nom">
-            <h5>入場券</h5>
+            <div class="top">
+                <h5>販売期間</h5>
+                <p>2026年3月1日～4月25日（または完売まで）</p>
+
+            </div>
+
+
+
             <table class="table-layout">
                 <tr class="table-top">
-                    <th align="left">販売期間</th>
-                    <td align="right">4月2日～5月3日</td>
+                    <th class="left">種別</th>
+                    <td class="right">料金</td>
                 </tr>
                 <tr>
-                    <th align="left">入場券1</th>
-                    <td align="right">＊＊,＊＊＊¥</td>
+                    <th class="left">1日券（5/2）</th>
+                    <td class="right">8,000円</td>
                 </tr>
                 <tr>
-                    <th align="left">入場券2</th>
-                    <td align="right">＊＊,＊＊＊¥</td>
+                    <th class="left">1日券（5/3）</th>
+                    <td class="right">8,000円</td>
                 </tr>
                 <tr>
-                    <th align="left">入場券3</th>
-                    <td align="right">＊＊,＊＊＊¥</td>
+                    <th class="left">2日通し券</th>
+                    <td class="right">14,000円</td>
+                </tr>
+                <tr>
+                    <th class="left">VIP券（2日通し券）</th>
+                    <td class="right">25,000円</td>
                 </tr>
             </table>
             <div class="body-bootoom">
-                <p class="Precautions">購入方法の説明と注意事項</p>
+                <p class="Precautions">チケットの説明</p>
                 <p>
-                    ・説明１･･･＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊<br><br>
-                    ・説明２･･･＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊<br><br>
-                    ・説明３･･･＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊<br><br>
+
+                    ・1日券（5/2）･･･5月2日のみ入場可能<br><br>
+                    ・1日券（5/3）･･･5月3日のみ入場可能<br><br>
+                    ・2日通し券･･･両日入場可能（2,000円お得）<br><br>
+                    ・VIP券（2日通し券）･･･専門エリア、グッズ付き
                 </p>
+                <p class="Precautions">注意事項</p>
+                <p>
+                    ・小学生以下は保護者同伴で無料
+                </p>
+
             </div>
             <div class="body-ticket">
-                <a href="#">チケット情報はこちら</a>
+                <p>チケット購入はこちら→<a href="#">チケットapi</a></p>
             </div>
         </div>
     </div>
@@ -139,7 +166,7 @@
             &copy; 2026 morijyobi All Rights Reserved.
         </div>
     </footer>
-    <script src="./js/header.js"></script>
+    <script src="../js/header.js"></script>
 
 </body>
 
