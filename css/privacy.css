@@ -29,13 +29,13 @@
 
     }
 
-    h4 {
+    .privacy-h4{
         font-weight: normal;
         font-size: 40px;
         margin: 2rem;
     }
 
-    p {
+    .body-p {
         margin: 2rem;
         font-size: 24px;
         border-bottom: solid;
