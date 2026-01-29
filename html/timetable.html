@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=M+PLUS+Rounded+1c&family=Moirai+One&family=Noto+Sans+JP:wght@100..900&family=Potta+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Zen+Old+Mincho&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=M+PLUS+Rounded+1c&family=Moirai+One&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Zen+Old+Mincho&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/timetable.css">
+    <title>タイムテーブル</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Spring Music Festival 2026</h1>
+            <p>5月2、3日 グリーンパーク野外ステージ</p>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <nav id="menu">
+            <div class="close-button" onclick="closeMenu()">✕</div>
+            <a href="./html/artists/index.html">出演者一覧</a>
+            <a href="./html/timetable.html">タイムテーブル</a>
+            <a href="./html/guide.html">会場案内</a>
+            <a href="./html/ticket.html">チケット情報</a>
+            <a href="./html/goods.html">グッズ紹介</a>
+            <a href="./html/guide.html">来場者ガイド</a>
+            <a href="./html/faq.html">FAQ</a>
+        </nav>
+    </header>
+
+    <div class="tabs">
+        <div class="tab-buttons">
+            <button class="tab-btn active" data-tab="tab1">5/2</button>
+            <button class="tab-btn" data-tab="tab2">5/3</button>
+        </div>
+
+        <div class="tab-contents">
+            <div id="tab1" class="tab-content active">
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th class="table-header">main stage</th>
+                            <th class="table-header">sub stage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="colunm-header">
+                                <p>11:00 ~ 11:40</p>
+                            </th>
+                            <td><img src="../img/artists/TheBlossomDrive.webp" alt="" class="artist-img">
+                                <p>The Bloossom Drive</p>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th class="colunm-header">
+                                <p>12:00 ~ 12:40</p>
+                            </th>
+                            <td><img src="../img/artists/高橋リオ.webp" alt="" class="artist-img">
+                                <p>高橋リオ</p>
+                            </td>
+                            <td><img src="../img/artists/MorningEchoes.webp" alt="" class="artist-img">
+                                <p>Morning Echoes</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="colunm-header">
+                                <p>13:00 ~ 13:40</p>
+                            </th>
+                            <td></td>
+                            <td><img src="../img/artists/VelvetGroove.webp" alt="" class="artist-img">
+                                <p>Velvet Groove</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="colunm-header">
+                                <p>14:00 ~ 14:40</p>
+                            </th>
+                            <td><img src="../img/artists/DJ_Breeze.webp" alt="" class="artist-img">
+                                <p>DJ Breeze</p>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th class="colunm-header">
+                                <p>15:00 ~ 15:40</p>
+                            </th>
+                            <td><img src="../img/artists/中村蓮.webp" alt="" class="artist-img">
+                                <p>中村蓮</p>
+                            </td>
+                            <td><img src="../img/artists/MorningEchoes.webp" alt="" class="artist-img">
+                                <p>Morning Echoes</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="colunm-header">
+                                <p>16:00 ~ 16:40</p>
+                            </th>
+                            <td></td>
+                            <td><img src="../img/artists/VelvetGroove.webp" alt="" class="artist-img">
+                                <p>Velvet Groove</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="colunm-header">
+                                <p>17:00 ~ 19:00</p>
+                            </th>
+                            <td><img src="../img/artists/TheBlossomDrive.webp" alt="" class="artist-img">
+                                <p>The blossom Drive</p>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="tab2" class="tab-content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th class="table-header">main stage</th>
+                            <th class="table-header">sub stage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="colunm-header">
+                                <p>11:00 ~ 11:40</p>
+                            </th>
+                            <td><img src="../img/artists/CrimsonWaves.webp" alt="" class="artist-img">
+                                <p>Crimson Waves</p>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th class="colunm-header">
+                                <p>12:00 ~ 12:40</p>
+                            </th>
+                            <td><img src="../img/artists/宮本サクラ.webp" alt="" class="artist-img">
+                                <p>宮本サクラ</p>
+                            </td>
+                            <td><img src="../img/artists/風雅.webp" alt="" class="artist-img">
+                                <p>風雅</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="colunm-header">
+                                <p>13:00 ~ 13:40</p>
+                            </th>
+                            <td></td>
+                            <td><img src="../img/artists/NeonLights.webp" alt="" class="artist-img">
+                                <p>NeonLights</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="colunm-header">
+                                <p>14:00 ~ 14:40</p>
+                            </th>
+                            <td><img src="../img/artists/森下晴人.webp" alt="" class="artist-img">
+                                <p>森下晴人</p>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th class="colunm-header">
+                                <p>15:00 ~ 15:40</p>
+                            </th>
+                            <td><img src="../img/artists/宮本サクラ.webp" alt="" class="artist-img">
+                                <p>宮本サクラ</p>
+                            </td>
+                            <td><img src="../img/artists/風雅.webp" alt="" class="artist-img">
+                                <p>風雅</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="colunm-header">
+                                <p>16:00 ~ 16:40</p>
+                            </th>
+                            <td></td>
+                            <td><img src="../img/artists/NeonLights.webp" alt="" class="artist-img">
+                                <p>NeonLights</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="colunm-header">
+                                <p>17:00 ~ 19:00</p>
+                            </th>
+                            <td><img src="../img/artists/HorizonStrings.webp" alt="" class="artist-img">
+                                <p>HorizonStrings</p>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <h2 class="english">Spring Music Festival 2026</h2>
+                <p>5月2、3日 グリーンパーク野外ステージ</p>
+            </div>
+
+            <div class="footer-links">
+                <div class="col">
+                    <a href="./html/artists/index.html">出演者一覧</a>
+                    <div>
+                        <a href="./html/timetable.html">タイムテーブル</a>
+                        <div>
+                            <a href="./html/timetable.html">5月2日</a>
+                            <a href="./html/timetable.html">5月3日</a>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="./html/guide.html">会場案内</a>
+                        <div>
+                            <a href="./html/guide.html">会場名・住所</a>
+                            <a href="./html/guide.html">アクセス方法</a>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="./html/ticket.html">チケット案内</a>
+                        <div>
+                            <a href="#">種別と料金</a>
+                            <a href="#">購入方法</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <a>グッズ紹介</a>
+                    <div>
+                        <a href="">各種グッズ</a>
+                        <a href="">当日販売の案内</a>
+                    </div>
+                    <a href="">来場者ガイド</a>
+                    <div>
+                        <a href="">持ち物リスト</a>
+                        <a href="">禁止事項</a>
+                        <a href="">その他の注意事項</a>
+                        <a href="">雨天時の対応</a>
+                        <a href="">会場での過ごし方</a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <a>よくある質問</a>
+                    <div>
+                        <a href="">チケットについて</a>
+                        <a href="">入場・会場について</a>
+                        <a href="">飲食について</a>
+                        <a href="">その他</a>
+                    </div>
+                    <a href="">お問い合わせ</a>
+                    <a href="">プライバシーポリシー</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; 2026 morijyobi All Rights Reserved.
+        </div>
+    </footer>
+    <script src="../js/header.js"></script>
+    <script src="../js/timetable.js"></script>
+</body>
+
+</html>
