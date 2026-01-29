@@ -1,0 +1,150 @@
+/* index.html用のcssファイル */
+img {
+  width: 100%;
+  height: auto;
+}
+
+.keyvisual {
+  position: relative;
+}
+
+.keyvisual .catchcopy {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4rem;
+  text-shadow: 1px 2px 2px #e6522a;
+}
+
+.keyvisual img {
+  position: relative;
+  height: 500px;
+}
+
+.circle {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 200px;
+  height: 200px;
+  background-color: #e6522a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.date {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 1.5rem;
+}
+
+.info {
+  margin: 20px 50px;
+}
+
+.info .title {
+  margin: 0 30px;
+  font-size: 2rem;
+}
+
+.info div {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  font-size: 1.5rem;
+}
+
+.info div .info-date {
+  margin-right: 30px;
+}
+
+.goods {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.goods .flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.goods img {
+  width: 250px;
+  height: 250px;
+}
+
+@media screen and (max-width: 375px) {
+  .keyvisual img {
+    position: relative;
+    height: 200px;
+  }
+
+  .keyvisual .catchcopy {
+    position: absolute;
+    top: 13%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 2px 2px #e6522a;
+  }
+
+  .keyvisual .flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .keyvisual .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+    background-color: #e6522a;
+    color: #fff;
+    border-radius: 10%;
+    width: 200px;
+    height: 80px;
+  }
+
+  .date {
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  .date p {
+    font-size: 14px;
+  }
+
+  .info {
+    margin: 0 20px;
+  }
+
+  .info div {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .info title {
+    font-size: 16px;
+  }
+
+  .info p {
+    font-size: 12px;
+  }
+
+  .info .info-date {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+}
