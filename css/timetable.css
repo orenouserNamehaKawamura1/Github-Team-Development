@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+@media screen and (max-width: 375px) {
+    .tabs{
+        justify-content: center;
+        margin: 16px;
+    }
+
+    .tab-buttons {
+        display: flex;
+        width: 100%;
+        gap: 0px;
+        justify-content: center;
+    }
+
+    .tab-btn {
+        padding: 8px 0;
+        width: 50%;
+        margin: 0;
+        margin-top: 16px;
+        border: none;
+        background: #eee;
+        cursor: pointer;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .tab-btn.active {
+        background: #e6522a;
+        color: #fff;
+    }
+
+    .tab-content {
+        display: none;
+        justify-content: center;
+    }
+
+    .tab-content.active {
+        display: block;
+        color: #3D5E75;
+    }
+
+    .table-header{
+        background-color: #dbcfc4;
+        padding: 8px 0;
+        font-weight: 400;
+    }
+
+    .tab-content table tbody tr th{
+        background-color: #dbcfc4;
+        font-size: 10pt;
+        width: 30%;
+    }
+
+    .tab-content table tbody tr td p{
+        font-size: 8pt;
+        text-align: center;
+    }
+
+    .artist-img{
+        aspect-ratio: 125/70;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .colunm-header p{
+        font-weight: 400;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .tabs{
+        justify-content: center;
+        padding: 64px;
+    }
+
+    .tab-buttons {
+        display: flex;
+        width: 100%;
+        gap: 0px;
+        justify-content: center;
+    }
+
+    .tab-btn {
+        padding: 24px 0;
+        width: 50%;
+        margin: 0;
+        margin-top: 16px;
+        border: none;
+        background: #eee;
+        cursor: pointer;
+        border-radius: 20px 20px 0 0;
+        font-size: large;
+        color: #3D5E75;
+    }
+
+    .tab-btn.active {
+        background: #e6522a;
+        color: #fff;
+    }
+
+    .tab-content {
+        display: none;
+        justify-content: center;
+    }
+
+    .tab-content.active {
+        display: block;
+        color: #3D5E75;
+    }
+
+    .table-header{
+        background-color: #dbcfc4;
+        padding: 8px 0;
+        font-weight: 400;
+        width: 35%;
+    }
+
+    .tab-content table tbody tr th{
+        background-color: #dbcfc4;
+        font-size: 12pt;
+        width: 30%;
+    }
+
+    .tab-content table tbody tr td p{
+        font-size: 10pt;
+        text-align: center;
+    }
+
+    .artist-img{
+        aspect-ratio: 125/70;
+        object-fit: cover; 
+        width: 100%;
+    }
+
+    .colunm-header p{
+       font-weight : bold; 
+   }
+}

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 
 <head>
@@ -14,10 +14,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=M+PLUS+Rounded+1c&family=Moirai+One&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Zen+Old+Mincho&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="../css/common.css"/>
-    <link rel="stylesheet" href="../css/ticket.css">
-    <title>チケット情報</title>
-
+    <link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/artist-detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>DJ Breeze</title>
 </head>
 
 <body>
@@ -33,69 +33,55 @@
         </div>
         <nav id="menu">
             <div class="close-button" onclick="closeMenu()">✕</div>
-            <a href="./html/artists/index.html">出演者一覧</a>
-            <a href="./html/timetable.html">タイムテーブル</a>
-            <a href="./html/guide.html">会場案内</a>
-            <a href="./html/ticket.html">チケット情報</a>
-            <a href="./html/goods.html">グッズ紹介</a>
-            <a href="./html/guide.html">来場者ガイド</a>
-            <a href="./html/faq.html">FAQ</a>
+            <a href="../artists/index.html">出演者一覧</a>
+            <a href="../timetable.html">タイムテーブル</a>
+            <a href="../guide.html">会場案内</a>
+            <a href="../ticket.html">チケット情報</a>
+            <a href="../goods.html">グッズ紹介</a>
+            <a href="../guide.html">来場者ガイド</a>
+            <a href="../faq.html">FAQ</a>
         </nav>
     </header>
 
-    <div></div>
-    <div class="main-body">
-        <div class="body-top">
-            <p>チケット情報</p>
+    <div class="contents">
+        <h1 class="artist-name">DJ Breeze</h1>
+        <div class="genre-and-sns-icon">
+            <p class="artist-genre">ハウス/テクノ</p>
+            <div class="sns-icons">
+                <a href="#" target="_blank" class="sns x">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#" target="_blank" class="sns instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" target="_blank" class="sns youtube">
+                    <i class="fa-brands fa-soundcloud"></i>
+                </a>
+            </div>
         </div>
-        <div class="body-nom">
-            <div class="top">
-                <h5>販売期間</h5>
-                <p>2026年3月1日～4月25日（または完売まで）</p>
-
-            </div>
-
-
-
-            <table class="table-layout">
-                <tr class="table-top">
-                    <th class="left">種別</th>
-                    <td class="right">料金</td>
-                </tr>
-                <tr>
-                    <th class="left">1日券（5/2）</th>
-                    <td class="right">8,000円</td>
-                </tr>
-                <tr>
-                    <th class="left">1日券（5/3）</th>
-                    <td class="right">8,000円</td>
-                </tr>
-                <tr>
-                    <th class="left">2日通し券</th>
-                    <td class="right">14,000円</td>
-                </tr>
-                <tr>
-                    <th class="left">VIP券（2日通し券）</th>
-                    <td class="right">25,000円</td>
-                </tr>
-            </table>
-            <div class="body-bootoom">
-                <p class="Precautions">チケットの説明</p>
-                <p>
-
-                    ・1日券（5/2）･･･5月2日のみ入場可能<br><br>
-                    ・1日券（5/3）･･･5月3日のみ入場可能<br><br>
-                    ・2日通し券･･･両日入場可能（2,000円お得）<br><br>
-                    ・VIP券（2日通し券）･･･専門エリア、グッズ付き
-                </p>
-                <p class="Precautions">注意事項</p>
-                <p>
-                    ・小学生以下は保護者同伴で無料
-                </p>
-
-            </div>
-            <div class="body-ticket">
-                <p>チケット購入はこちら→<a href="#">チケットapi</a></p>
+        <div class="flex-display">
+            <img src="../../img/artists/DJ_Breeze.webp" alt="" class="artist-img">
+            <div class="block-display">
+                <div class="artist-description">
+                    <p>心地よい風のような爽やかなビートで、フロアを盛り上げる人気DJ。
+                        国内の大型フェスやクラブイベントに多数出演し、海外でも活躍中。
+                        オリジナルトラックはもちろん、即興でのリミックスも得意とし、
+                        その場の雰囲気に合わせた柔軟なDJプレイが高く評価されている。
+                    </p>
+                </div>
+                <div class="flex-display">
+                    <div class="artist-info">
+                        <h3>代表曲</h3>
+                        <p>Spring Breeze、Sunrise Session、Feel the Windなど</p>
+                    </div>
+                    <div class="artist-info">
+                        <h3>出演ステージ・日時</h3>
+                        <h4>5月3日</h4>
+                        <p>メインステージ 14:00 ~ 14:40</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -109,23 +95,23 @@
 
             <div class="footer-links">
                 <div class="col">
-                    <a href="./html/artists/index.html">出演者一覧</a>
+                    <a href="../artists/index.html">出演者一覧</a>
                     <div>
-                        <a href="./html/timetable.html">タイムテーブル</a>
+                        <a href="../timetable.html">タイムテーブル</a>
                         <div>
-                            <a href="./html/timetable.html">5月2日</a>
-                            <a href="./html/timetable.html">5月3日</a>
+                            <a href="../timetable.html">5月2日</a>
+                            <a href="../timetable.html">5月3日</a>
                         </div>
                     </div>
                     <div>
-                        <a href="./html/guide.html">会場案内</a>
+                        <a href="../guide.html">会場案内</a>
                         <div>
-                            <a href="./html/guide.html">会場名・住所</a>
-                            <a href="./html/guide.html">アクセス方法</a>
+                            <a href="../guide.html">会場名・住所</a>
+                            <a href="../guide.html">アクセス方法</a>
                         </div>
                     </div>
                     <div>
-                        <a href="./html/ticket.html">チケット案内</a>
+                        <a href="../ticket.html">チケット案内</a>
                         <div>
                             <a href="#">種別と料金</a>
                             <a href="#">購入方法</a>
@@ -166,8 +152,7 @@
             &copy; 2026 morijyobi All Rights Reserved.
         </div>
     </footer>
-    <script src="../js/header.js"></script>
-
+    <script src="./js/header.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+@media screen and (max-width: 375px) {
+    .contents {
+        color: #3D5E75;
+    }
+
+    .date {
+        padding: 16px 0;
+        text-align: center;
+    }
+
+    .artist-content{
+        padding: 0 16px;
+        margin-top: 8px;
+    }
+
+    .artist-img{
+        aspect-ratio: 125/70;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .artist-text{
+        display: flex;
+        align-items: center;
+    }
+
+    .artist-name{
+        font-size: 10pt;
+        margin-right: auto;
+    }
+
+    .artist-genre{
+        font-size: 7pt;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .contents {
+        color: #3D5E75;
+    }
+
+    .date {
+        padding: 16px 0;
+        text-align: center;
+    }
+
+    .artist-contents{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3列 */
+        gap: 24px;
+        margin: 0 auto;
+        padding: 32px;
+    }
+
+    .artist-content{
+        margin-top: 8px;
+    }
+
+    .artist-img{
+        aspect-ratio: 125/70;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .artist-text{
+        display: flex;
+        align-items: center;
+    }
+
+    .artist-name{
+        font-size: 12pt;
+        margin-right: auto;
+    }
+
+    .artist-genre{
+        font-size: 9pt;
+    }
+    
+}
