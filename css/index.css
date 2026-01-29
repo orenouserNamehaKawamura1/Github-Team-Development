@@ -103,6 +103,7 @@ img {
   }
 
   .keyvisual .circle {
+    position: static;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,9 +112,10 @@ img {
     font-size: 10px;
     background-color: #e6522a;
     color: #fff;
-    border-radius: 10%;
+    border-radius: 1%;
     width: 200px;
-    height: 80px;
+    height: 50px;
+    margin-top: 20px;
   }
 
   .date {
@@ -127,6 +129,11 @@ img {
 
   .info {
     margin: 0 20px;
+  }
+
+  .info .title {
+    margin: 0;
+    font-size: 1rem;
   }
 
   .info div {
@@ -146,5 +153,9 @@ img {
   .info .info-date {
     font-size: 14px;
     margin-right: 20px;
+  }
+
+  .goods {
+    display: none;
   }
 }
