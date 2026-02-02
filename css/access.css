@@ -1,0 +1,160 @@
+@media screen and (max-width: 375px) {
+  .body-1 {
+    margin: 5rem 10%;
+    font-size: 24px;
+
+  }
+
+  .body-1-left {
+    text-align: left;
+    margin: 10px 0;
+    font-size: 12px;
+  }
+
+  .body-1-right {
+    width: 300px;
+    height: 166px;
+  }
+
+  .border-h4 {
+    border-bottom: 1px solid;
+    margin-top: 1rem ;
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .body-2 {
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  .body-2 img {
+    width: 300px;
+    height: 166px;
+  }
+
+  .body-nav {
+    width: 300px;
+    background-color: rgb(209, 209, 209);
+    margin: 20px auto;
+    padding: 10px 5px;
+
+  }
+
+  .body-nav h6 {
+    text-align: left;
+    margin: 5px;
+    font-size: 16px;
+  }
+
+  .body-nav p {
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: 10px;
+
+  }
+
+  .nav-p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .body-tyuui {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .body-tyuui h5 {
+    border-bottom: solid 1px;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  .body-tyuui p {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 1280px) {
+  .body-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 5rem 10%;
+
+
+
+  }
+
+  .body-1-left {
+    align-items: center;
+    font-size: 24px;
+  }
+
+  .body-1-right {
+    width: 650px;
+    height: 500px;
+  }
+
+  .border-h4 {
+    border-bottom: 1px solid;
+    padding: 5px;
+    font-size: 32px;
+  }
+
+  .body-2 {
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  .body-nav {
+    width: 1280px;
+    background-color: rgb(209, 209, 209);
+    margin: 20px auto;
+    padding: 10px 0;
+
+  }
+
+  .body-nav h6 {
+    text-align: left;
+    margin: 5px;
+    font-size: 28px;
+  }
+
+  .body-nav p {
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: 24px;
+
+  }
+
+  .nav-p {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .body-tyuui {
+    width: 1280px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .body-tyuui h5 {
+    border-bottom: solid 1px;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 28px;
+  }
+
+  .body-tyuui p {
+    font-size: 24px;
+  }
+
+}
