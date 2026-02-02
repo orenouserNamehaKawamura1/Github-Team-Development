@@ -1,4 +1,8 @@
-.main{
+body {
+  width: 100% ;
+}
+
+form{
   width: 360px;
   margin: 40px auto;
 }
@@ -51,4 +55,34 @@ button {
   font-size: 13px;
   color: #000;
   text-decoration: none;
+}
+@media screen and (max-width: 750px) {
+  .body {
+    font-size: 14px;
+  }
+  
+  .sub {
+    font-size: 10px;
+      margin-bottom: 20%;
+  }
+  .input {
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background: #eee;
+  font-size: 14px;
+  }
+  .button {
+    margin-top: 50%;
+    font-size: 24px; /* 文字を24pxに */
+  font-size: 1.5rem;
+  }
+  a {
+    width: 100%;
+  }
+  .mannaka {
+    margin-top: 200px;
+    width: 90%;
+    margin: 40px auto;
+  }
 }
