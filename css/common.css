@@ -18,6 +18,10 @@ body {
 /* Header styles */
 header {
   width: 100%;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 1000;
 }
 
 header div {
