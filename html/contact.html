@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>お問い合わせ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Spring Music Festival 2026</h1>
+        <p>5月2、3日 グリーンパーク野外ステージ</p>
+        <div class="hamburger" onclick="toggleMenu()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <nav id="menu">
+        <div class="close-button" onclick="closeMenu()">✕</div>
+        <a href="./html/artists/index.html">出演者一覧</a>
+        <a href="./html/timetable.html">タイムテーブル</a>
+        <a href="./html/guide.html">会場案内</a>
+        <a href="./html/ticket.html">チケット情報</a>
+        <a href="./html/goods.html">グッズ紹介</a>
+        <a href="./html/guide.html">来場者ガイド</a>
+        <a href="./html/faq.html">FAQ</a>
+      </nav>
+    </header>
+
+    <div class="main">
+      <form class="mannaka">
+        <div class="sub">
+          <label>お問い合わせの種類</label>
+          <select>
+            <option value="チケットについて">チケットについて</option>
+            <option value="会場について">会場について</option>
+            <option value="出演者について">出演者について</option>
+            <option value="その他">その他</option>
+          </select>
+        </div>
+
+        <div class="sub">
+          <label>お名前（必須）</label>
+          <input type="text" />
+        </div>
+
+        <div class="sub">
+          <label>お名前（ひらがな）</label>
+          <input type="text" />
+        </div>
+
+        <div class="sub">
+          <label>メールアドレス（必須）</label>
+          <input type="email" />
+        </div>
+
+        <div class="sub">
+          <label>電話番号（必須）</label>
+          <input type="tel" />
+        </div>
+
+        <div class="sub">
+          <label>お問い合わせ内容</label>
+          <textarea placeholder="自由にご記入ください。"></textarea>
+        </div>
+
+        <div class="button">
+          <button type="submit">確認画面へ</button>
+        </div>
+        <div class="button">
+          <a href="#">トップページへ戻る</a>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <h2 class="english">Spring Music Festival 2026</h2>
+          <p>5月2、3日 グリーンパーク野外ステージ</p>
+        </div>
+
+        <div class="footer-links">
+          <div class="col">
+            <a href="./html/artists/index.html">出演者一覧</a>
+            <div>
+              <a href="./html/timetable.html">タイムテーブル</a>
+              <div>
+                <a href="./html/timetable.html">5月2日</a>
+                <a href="./html/timetable.html">5月3日</a>
+              </div>
+            </div>
+            <div>
+              <a href="./html/guide.html">会場案内</a>
+              <div>
+                <a href="./html/guide.html">会場名・住所</a>
+                <a href="./html/guide.html">アクセス方法</a>
+              </div>
+            </div>
+            <div>
+              <a href="./html/ticket.html">チケット案内</a>
+              <div>
+                <a href="#">種別と料金</a>
+                <a href="#">購入方法</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <a>グッズ紹介</a>
+            <div>
+              <a href="">各種グッズ</a>
+              <a href="">当日販売の案内</a>
+            </div>
+            <a href="">来場者ガイド</a>
+            <div>
+              <a href="">持ち物リスト</a>
+              <a href="">禁止事項</a>
+              <a href="">その他の注意事項</a>
+              <a href="">雨天時の対応</a>
+              <a href="">会場での過ごし方</a>
+            </div>
+          </div>
+
+          <div class="col">
+            <a>よくある質問</a>
+            <div>
+              <a href="">チケットについて</a>
+              <a href="">入場・会場について</a>
+              <a href="">飲食について</a>
+              <a href="">その他</a>
+            </div>
+            <a href="">お問い合わせ</a>
+            <a href="">プライバシーポリシー</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2026 morijyobi All Rights Reserved.
+      </div>
+    </footer>
+    <script src="./js/header.js"></script>
+  </body>
+</html>
