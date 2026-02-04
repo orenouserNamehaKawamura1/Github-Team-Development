@@ -1,0 +1,62 @@
+@media screen and (max-width: 375px) {
+    .セレクタ {}
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #fff;
+}
+
+.faq {
+    margin: 0 auto;
+}
+
+.faq h1 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.faq-section {
+    margin-top: 24px;
+}
+
+.faq-section h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 6px;
+    margin-bottom: 8px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #000;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.faq-answer {
+    display: none;
+    padding: 0 0 12px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.icon {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px;
+    line-height: 1.8;
+}
